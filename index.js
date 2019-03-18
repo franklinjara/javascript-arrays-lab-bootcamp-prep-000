@@ -22,3 +22,6 @@ function appendKitten(name) {
   return kittens.slice(name);
 }
 
+function prependKitten(name) {
+  kittens.concat(name);
+}
