@@ -27,3 +27,7 @@ function prependKitten(name) {
   name.concat(kittens);
 }
 
+function removeLastKitten(name) {
+  kittens.slice(name, 1);
+  return kittens;
+}
