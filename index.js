@@ -19,9 +19,10 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(name) {
-  return kittens.slice(name);
+  kittens.slice(name);
 }
 
 function prependKitten(name) {
-  return name.concat(kittens);
+  name.concat(kittens);
 }
+
